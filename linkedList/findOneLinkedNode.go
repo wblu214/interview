@@ -9,11 +9,13 @@ import "fmt"
 输入：head = [2,4,7,8], cnt = 1
 输出：8
 */
-
+/**
+双指针解法
+*/
 func findKNodeReverseOrder(head *ListNode, count int) *ListNode {
 	quick, slow := head, head
 
-	for quick.Next != nil && count > 0 {
+	for quick.Next != nil && count > 1 {
 		quick = quick.Next
 		count--
 	}
@@ -27,6 +29,6 @@ func main() {
 
 	head := CreateLinkedNode([]int{2, 3, 6, 8, 2, 1, 4, 6, 0, 19})
 	PrintLinkedNode(head)
-	targetLinkedNode := findKNodeReverseOrder(head, 0)
+	targetLinkedNode := findKNodeReverseOrder(head, 3)
 	fmt.Println(targetLinkedNode.Val)
 }
