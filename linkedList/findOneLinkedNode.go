@@ -28,6 +28,6 @@ func main() {
 
 	head := CreateLinkedNode([]int{2, 3, 6, 8, 2, 1, 4, 6, 0, 19})
 	PrintLinkedNode(head)
-	targetLinkedNode := findKNodeReverseOrder(head, 3)
+	targetLinkedNode := findKNodeReverseOrder(head, 1)
 	fmt.Println(targetLinkedNode.Val)
 }
