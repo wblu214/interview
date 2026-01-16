@@ -9,9 +9,8 @@ import "fmt"
 输入：head = [2,4,7,8], cnt = 1
 输出：8
 */
-/**
-双指针解法
-*/
+
+// 双指针解法
 func findKNodeReverseOrder(head *ListNode, count int) *ListNode {
 	quick, slow := head, head
 
