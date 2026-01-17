@@ -27,7 +27,6 @@ func mergeTwoLinkedList(l1 *ListNode, l2 *ListNode) *ListNode {
 			target.Next = cur2
 			cur2 = cur2.Next
 		}
-
 		target = target.Next
 	}
 
