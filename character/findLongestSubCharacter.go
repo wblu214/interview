@@ -24,6 +24,7 @@ import (
 func lengthOfLongestSubstring(s string) int {
 	// 使用map来记录字符最后出现的位置
 	lastOccurred := make(map[byte]int)
+
 	start := 0     // 窗口起始位置
 	maxLength := 0 // 最大长度
 
