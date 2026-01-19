@@ -45,7 +45,6 @@ func main() {
 	l2 := CreateLinkedNode([]int{1, 3, 4})
 
 	PrintLinkedNode(l1)
-
 	PrintLinkedNode(l2)
 
 	targetLinkedNode := mergeTwoLinkedList(l1, l2)
