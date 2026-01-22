@@ -12,6 +12,7 @@ func mergeTwoLinkedList(l1 *ListNode, l2 *ListNode) *ListNode {
 
 	head := new(ListNode)
 	target := head
+
 	if l1 == nil {
 		return l2
 	}
