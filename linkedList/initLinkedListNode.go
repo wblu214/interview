@@ -12,7 +12,6 @@ func CreateLinkedNode(sourceArray []int) *ListNode {
 	if len(sourceArray) == 0 {
 		return nil
 	}
-
 	head := &ListNode{Val: sourceArray[0]}
 	cur := head
 	for i := 1; i < len(sourceArray); i++ {
