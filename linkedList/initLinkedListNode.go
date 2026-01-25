@@ -13,7 +13,6 @@ func CreateLinkedNode(sourceArray []int) *ListNode {
 		return nil
 	}
 	head := &ListNode{Val: sourceArray[0]}
-
 	cur := head
 	for i := 1; i < len(sourceArray); i++ {
 		node := &ListNode{Val: sourceArray[i], Next: nil}
