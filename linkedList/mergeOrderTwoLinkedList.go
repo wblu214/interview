@@ -19,6 +19,7 @@ func mergeTwoLinkedList(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l2 == nil {
 		return l1
 	}
+
 	for cur1 != nil && cur2 != nil {
 		if cur1.Val <= cur2.Val {
 			target.Next = cur1
