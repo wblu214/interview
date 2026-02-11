@@ -45,6 +45,7 @@ func lengthOfLongestSubstring(s string) int {
 }
 
 func main() {
+	//www
 	source := "abcabcbb"
 	fmt.Printf("原字符串为：%s\n", source)
 	result := lengthOfLongestSubstring(source)
