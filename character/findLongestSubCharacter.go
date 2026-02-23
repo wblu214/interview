@@ -33,7 +33,7 @@ func lengthOfLongestSubstring(s string) int {
 		if last, ok := lastOccurred[ch]; ok && last >= start {
 			// 移动窗口起始位置到重复字符的下一个位置
 			start = last + 1
-			//www
+			//wwwwwww
 		}
 		// 更新字符最后出现的位置
 		lastOccurred[ch] = i
